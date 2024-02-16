@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar__title{
+    padding-top: 10px;
+    color: white;
+}
+
+.navbar__list:hover{
+   color: white;
+}
+
+.navbar__list{
+    display: flex;
+    color: gray;
+    gap: 3px;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.container__box{
+    border: solid black 2px;
+    text-align: center;
+    width: 250px;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: none;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top:  10px; 
+}
+
+.contact button{
+    background-color: yellow;
+    color: black;
+    width: 500px;
+}
+
+.contact table{
+    margin-left: 40%;
+}
+
+.contact input{
+    width: 200px;
+    border: none;
+    padding: 5px;
+}
+
+.contact input:focus{
+    outline: none;
+}
